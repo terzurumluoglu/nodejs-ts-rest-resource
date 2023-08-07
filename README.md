@@ -1,0 +1,1 @@
+# nodejs-ts-rest-resource

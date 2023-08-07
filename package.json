@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-ts-rest-resource",
+  "version": "1.0.0",
+  "description": "Resource Rest api with Nodejs Typescript, and this rest service protected by node-js-ts-rest-auth",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/terzurumluoglu/nodejs-rest-resource.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "restful",
+    "api"
+  ],
+  "author": "Toprak ERZURUMLUOĞLU <toprakerzurumluoglu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terzurumluoglu/nodejs-rest-resource/issues"
+  },
+  "homepage": "https://github.com/terzurumluoglu/nodejs-rest-resource#readme"
+}

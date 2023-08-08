@@ -4,6 +4,7 @@
   "description": "Resource Rest api with Nodejs Typescript, and this rest service protected by node-js-ts-rest-auth",
   "main": "index.js",
   "scripts": {
+    "dev": "tsc -w & nodemon build/index.js",
     "build": "rm -rf build/ && npm i && tsc",
     "start": "node build/index.js"
   },
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/terzurumluoglu/nodejs-rest-resource#readme",
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "nodemon": "^3.0.1",
     "typescript": "^5.1.6"
   },
   "dependencies": {

@@ -4,7 +4,8 @@
   "description": "Resource Rest api with Nodejs Typescript, and this rest service protected by node-js-ts-rest-auth",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf build/ && npm i && tsc",
+    "start": "node build/index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/terzurumluoglu/nodejs-rest-resource/issues"
   },
-  "homepage": "https://github.com/terzurumluoglu/nodejs-rest-resource#readme"
+  "homepage": "https://github.com/terzurumluoglu/nodejs-rest-resource#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
 }
